@@ -1,0 +1,57 @@
+.nav-link a:hover{
+    color: blue !important;
+    background-color: black !important;
+}
+
+.col-md-6 p{
+    width: 100% !important;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: -35px;
+}
+
+#newsletter input[type="email"]{
+    padding: 1px;
+    height: 25px;
+    width: 250px;
+}
+
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #newsletter h4, 
+    #newsletter form{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-top: 40px;
+    }
+}
